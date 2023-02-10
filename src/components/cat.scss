@@ -1,0 +1,45 @@
+$mainColor: red;
+$textColor: white;
+
+.cat-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .cat-name {
+    font-weight: 800;
+    font-size:larger;
+  }
+
+.cat-pic {
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+.cat-text {
+    text-align: justify;
+}
+
+.cat-button {
+  background-color: $mainColor;
+  color: $textColor;
+  border-radius: 5px;
+  border: 0;
+  height: 30px;
+  width: 150px;
+  font-weight: bold;
+}
+
+.selected {
+  border: 2px solid orange;
+  font-weight: bolder;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cat-image {
+width: 50px;
+padding: 20px;
+}
